@@ -13,7 +13,7 @@ data class IndicacaoOscarModel(
     @Id // O campo ID é um identificador único
     val id: ObjectId? = null,
 
-    @Field("id_registros") //field = campos, campos que voce tem na sua colecao
+    @Field("id_registro") //field = campos, campos que voce tem na sua colecao
     val idRegistro: Int, //variaveis para armazenar o valor dos campos
 
     @Field("ano_filmagem")
